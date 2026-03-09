@@ -16,7 +16,10 @@ import SectionWithMockup from "@/components/section-with-mockup";
 // import FeatureSection from "@/components/feature-section";
 import FAQs from "@/components/preguntas-frec";
 import Footer from "@/components/footer";
+import WobbleCardSection from "@/components/wobble-card-section";
+import PinCardsSection from "@/components/pin-cards-section";
 import { useReducedMotion } from "@/components/theme-controls";
+import { useTheme } from "next-themes";
 
 const circleItems = [
   { image: "/img/carrusel/carrusel1.png", title: "Microscopio" },
